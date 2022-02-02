@@ -1,0 +1,57 @@
+{
+    "dataRoles": [
+    {
+        "displayName": "Column One Data",
+        "name": "c1",
+        "kind": "Grouping"
+    },
+    {
+        "displayName": "Column Two Data",
+        "name": "c2",
+        "kind": "Measure"
+    },
+    {
+        "displayName": "Column Three Data",
+        "name": "c3",
+        "kind": "Measure"
+    },
+    {
+        "displayName": "Column Four Data",
+        "name": "c4",
+        "kind": "Measure"
+    } ],
+    "dataViewMappings": [
+    {
+        "table":
+        {
+            "rows":
+            {
+                "select": [
+                {
+                    "for":
+                    {
+                        "in": "c1"
+                    }
+                },
+                {
+                    "for":
+                    {
+                        "in": "c2"
+                    }
+                },
+                {
+                    "for":
+                    {
+                        "in": "c3"
+                    }
+                },
+                {
+                    "for":
+                    {
+                        "in": "c4"
+                    }
+                } ]
+            }
+        }
+    } ]
+}
